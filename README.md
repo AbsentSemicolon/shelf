@@ -1,8 +1,12 @@
+<div>
+
 Shelf
 =======
 
 [![Build Status](https://travis-ci.org/not-nexus/shelf.svg?branch=master)](https://travis-ci.org/not-nexus/shelf)
 [![codecov.io](https://codecov.io/github/not-nexus/shelf/coverage.svg?branch=master)](https://codecov.io/github/not-nexus/shelf?branch=master)
+
+</div>
 
 A REST API for AWS S3 meant to be an interface to immutable artifact storage.
 
