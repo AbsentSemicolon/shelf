@@ -1,10 +1,4 @@
-<div style="width: 150px; float: right;" markdown="1">
-
-![Shelf](docs/shelf-logo.png)
-
-</div>
-
-Shelf
+<img height="50" src="docs/shelf-logo.png" /> SHELF
 =====
 
 [![Build Status](https://travis-ci.org/not-nexus/shelf.svg?branch=master)](https://travis-ci.org/not-nexus/shelf)
