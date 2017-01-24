@@ -1,10 +1,10 @@
-<span style="vertical-align: top">
-<span style="float: right; padding: 10px">
+<div style="width: 150px; float: right; padding: 0 10px 10px;">
 ![Shelf](docs/shelf-logo.svg)
-</span>
+</div>
 
 Shelf
 =====
+
 [![Build Status](https://travis-ci.org/not-nexus/shelf.svg?branch=master)](https://travis-ci.org/not-nexus/shelf)
 [![codecov.io](https://codecov.io/github/not-nexus/shelf/coverage.svg?branch=master)](https://codecov.io/github/not-nexus/shelf?branch=master)
 
@@ -119,4 +119,3 @@ Currently we run some manual tests when a new version is deployed. Examples:
         curl -H "Authorization: XXXX" -F "file=@./random.img" api.shelf.example.com/bucket/artifact/random.img
 
 * Run upload and abruptly cancel mid-upload
-</span>
