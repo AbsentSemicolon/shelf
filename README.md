@@ -1,10 +1,14 @@
-![Shelf](docs/shelf-logo.png) Shelf
-=======
+<span style="vertical-align: top">
+<span style="float: right; padding: 10px">
+![Shelf](docs/shelf-logo.svg)
+</span>
 
+Shelf
+=====
 [![Build Status](https://travis-ci.org/not-nexus/shelf.svg?branch=master)](https://travis-ci.org/not-nexus/shelf)
 [![codecov.io](https://codecov.io/github/not-nexus/shelf/coverage.svg?branch=master)](https://codecov.io/github/not-nexus/shelf?branch=master)
 
-A REST API for AWS S3 meant to be an interface to immutable artifact storage.
+A REST PI for AWS S3 meant to be an interface to immutable artifact storage.
 
 It is suggested that you use [gunicorn](http://gunicorn.org/) for running in production but we provide a simple script to run it
 for development purposes in `bin/main.py`.
@@ -115,3 +119,4 @@ Currently we run some manual tests when a new version is deployed. Examples:
         curl -H "Authorization: XXXX" -F "file=@./random.img" api.shelf.example.com/bucket/artifact/random.img
 
 * Run upload and abruptly cancel mid-upload
+</span>
