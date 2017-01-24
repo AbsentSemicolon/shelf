@@ -1,4 +1,4 @@
-<div style="width: 150px; float: right; padding: 0 10px 10px;">
+<div style="width: 150px; float: right;" markdown="1">
 
 ![Shelf](docs/shelf-logo.png)
 
